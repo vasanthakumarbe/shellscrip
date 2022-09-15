@@ -1,12 +1,11 @@
-ls
-pwd
-mkdir vasanth
-mkdir ravi
-mkdir gokul
-ls -lrt
-pwd
-pwd
-ls -lrt
-rmdir vasanth
-touch kkk
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
 
