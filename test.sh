@@ -6,13 +6,7 @@ mkdir pppp
 touch loooo
 ps -ef
 sar
-ls -lrt
-vi sample.txt
-i
-hi hello 
-:wq!
-cat sample.txt
-rmdir pppp
+ls -lrt 
+sudo -s
 pwd
-ls -lrt
 
