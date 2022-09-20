@@ -1,4 +1,3 @@
 pwd
 ls -lrt
-touch report-'$date "+%y-%m-%d"'
-ls -r report*
+$ date -d "$(date +%Y/%m/01) - 1 day" "+%Y/%m/%d"
