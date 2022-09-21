@@ -1,6 +1,5 @@
 pwd
 ls -lrt
-set -A months Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov
 x='date +%m'
 y='expr $x -1'
 year='date +%y'
